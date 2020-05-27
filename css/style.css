@@ -54,7 +54,7 @@ text-transform: uppercase;
 font-family: 'Source Code Pro';
 font-weight:400;
 letter-spacing:1.5px;
-font-size:1.2em;
+font-size:0.9em;
 }
 nav a {
 	position: relative;
@@ -103,7 +103,7 @@ nav a:focus {
 /* Effect 5: same word slide in and border bottom */
 .banner-info{
 text-align:center;
-margin:10% 0;
+margin:4% 0;
 }
 .banner-info h1{
 color:#fff;
@@ -111,7 +111,7 @@ font-size:5em;
 font-family:Century Gothic;
 font-weight:600;
 letter-spacing:1.5px;
-margin-bottom:10px;
+margin-bottom:5px;
 }
 .banner-info h3{
 color:#fff;
@@ -121,7 +121,7 @@ font-weight:400;
 font-family: 'Source Code Pro';
 }
 a.downarrow {
-margin-top: 12.5em;
+margin-top: 6em;
 display: inline-block;
 }
 a.downarrow span {
@@ -459,13 +459,13 @@ font-weight:400;
 }
 /*--contact--*/
 .contact{
-padding:5em 0;
+padding:2em 0;
 }
 .contact h3 {
 color: #000;
 font-size: 2.7em;
 font-family: Century Gothic;
-margin-bottom: 14px;
+margin-bottom: 6px;
 letter-spacing: 1.3px;
 font-weight: 600;
 text-align:center;
@@ -845,7 +845,7 @@ word-spacing: 1px;
 letter-spacing: 0px;
 }
 .contact {
-padding: 3.5em 0;
+padding: 2em 0;
 }
 }
 @media (max-width: 480px){
