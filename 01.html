@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href='#css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Jalil Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"> </script>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+ 	<!---- start-smoth-scrolling---->
+
+</head>
+<body>
+<!--body-->
+<div id="home" class="banner">
+	 <div class="container">
+	   <div class="top-header">		  
+				<div class="logo">
+					<a href="index.html"></a>
+			  </div>
+			  <div class="top-menu">
+					<span class="menu"> </span>
+				  <ul>
+				      <nav class="cl-effect-5">
+							<li><a class="active scroll"  href="#home"><span data-hover="HOME">HOME</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#service"><span data-hover="About">About</span></a></li>
+							<li>/</li>
+							<li><a class="scroll" href="#portfolio"><span data-hover="Presentation">Presentation</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#teamwork"><span data-hover="Publication">Publication</span></a></li> 
+							<li>/</li>
+							<li><a class="scroll" href="#contact"><span data-hover="CONTACT">CONTACT</span></a></li>
+					 </nav>
+				  </ul>			 	 
+			  </div>	
+				<!-- script-for-menu -->
+			 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+			 </script>
+			 <!-- script-for-menu -->
+			 <div class="clearfix"></div>			
+		 </div>	 
+		 <div class="banner-info">	
+			<h1>Tongxi Liu</h1>
+			<h3>Doctoral student at University of Florida</h3>
+			<a class="downarrow scroll" href="#service"><span> </span></a>
+	   </div>
+	 </div>
+</div>
+<!---->
+<div id="service" class="service">
+	 <div class="container">
+		 <div class="service-head">
+			 <h3 style="color: white"><span style="background: black">About</span></h3>
+		 </div>
+		 <div>
+			 <br>
+	         <h3 class="text-left" styley="color: black", text-align="left">Research Interest</h3>
+			 <p>hahahahaha</p>
+			 <br>
+			 <h3 class="text-left" styley="color: black", text-align="left">Research Interest</h3>
+			 <p>hahahahaha</p>
+			 <br>
+			 <h3 class="text-left" styley="color: black", text-align="left">Research Interest</h3>
+			 <p>hahahahaha</p>
+			 <br>
+			 <h3 class="text-left" styley="color: black", text-align="left">Research Interest</h3>
+			 <p>hahahahaha</p>
+			 <br>
+	     </div>
+		
+	 </div>
+</div>
+<!----><!---->
+<script src="js/jquery.min.js"> </script>
+<script src="js/responsiveslides.min.js"></script>
+ <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+ <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<div id="portfolio" class="portfolio">
+	 <div class="container">
+		 <h3 style="color:white"><span style="background: black">Presentation</span></h3>
+		 <div>
+			 <br>
+	         <h5 class="text-left" styley="color: black", text-align="left">Research Interest</h5>
+			 <br>
+		 </div>
+		 
+     </div>
+
+</div>
+<!---->
+<div id="teamwork" class="teamwork">
+	 <div class="container">
+		 <div class="team-head">
+		 <h3>Publication</h3>
+		 <div>
+			 <br>
+	         <h5 class="text-left" styley="color: white", text-align="left">Research Interest</h5>
+			 <br>
+		 </div>
+		 
+		 </div>
+	 </div>
+</div>
+<!---contact-->
+<div id="contact" class="contact">
+	 <div class="container">
+		 <h3>CONTACT</h3>
+		 <div class="contact-form">
+			 练习方式
+				  </div>
+				  <div class="col-md-6 contact-right">
+					 地址
+				 </div>
+				 <div class="clearfix"></div>
+			 </form>
+	     </div>
+	 </div>
+</div>
+<!---fotter-->
+
+<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>>>>>>>>>>>>>>>
