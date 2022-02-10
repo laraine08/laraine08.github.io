@@ -22,7 +22,7 @@ header .profileLogo .logoPlaceholder {
 header .logoPlaceholder span {
 	width: 80px;
 	height: 22px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 	color: white;
 	font-size: 20px;
 	font-weight: 700;
@@ -35,7 +35,7 @@ header .profilePhoto {
 	clear: both;
 }
 header .profileHeader h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: black;
     font-size: 30px;
     font-weight: 700;
@@ -218,7 +218,7 @@ header {
 }
 header .profileLogo .logoPlaceholder {
 	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 header .profilePhoto {
 	float: left;
