@@ -55,7 +55,7 @@ hr {
 header .profileHeader p {
 	font-family: sans-serif;
 	color: #727272;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8;
 	overflow-y: auto;
@@ -72,7 +72,7 @@ header .socialNetworkNavBar {
 }
 .section1 .sectionTitle, .section2 .sectionTitle {
 	font-family: sans-serif;
-	color: black;
+	color: #727272;
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -90,20 +90,20 @@ header .socialNetworkNavBar {
 .mainContent .section1 .section1Content {
 	font-family: sans-serif;
 	color: #727272;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8;
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
 	color: #000000;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 }
 .section2 .sectionContent {
 	font-family: sans-serif;
 	color: #727272;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.8;
 }
