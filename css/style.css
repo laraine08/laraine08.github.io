@@ -41,7 +41,7 @@ header .profilePhoto p{
     font-weight: normal;
     line-height: 1.5;
     overflow-y: auto;
-    text-align:left;
+    text-align: left;
 }
 header .profileHeader h1 {
     font-family: 'Arial';
